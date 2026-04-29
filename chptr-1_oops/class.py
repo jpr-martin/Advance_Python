@@ -1,3 +1,7 @@
+"""Sample code for simple class and object creation with 
+constructor and method with some opertions on the data members of the class"""
+
+# Author: Raj_Joseph
 class Fruits:
 
     def __init__(self,n1,n2,n3=None,n4=None):
