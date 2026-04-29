@@ -37,4 +37,8 @@ obj.fruit_names()
 #Another way to to call function
 Fruits('Apple','Grapes','Orange').fruit_names()
 
+#Another way to to call function
+obj2=Fruits('Apple','Grapes','Orange','Dates')
+obj2.fruit_names()
+
 print("\n***********End of the program***********")
