@@ -7,7 +7,7 @@ class Fruits:
     def __init__(self,n1,n2,n3=None,n4=None):
         self.n1=n1
         self.n2=n2
-        self.n3=n4
+        self.n3=n3
         self.n4=n4
 
     def fruit_names(self):
@@ -32,5 +32,9 @@ class Fruits:
 
 obj=Fruits('Apple','Grapes')
 obj.fruit_names()
+
+
+#Another way to to call function
+Fruits('Apple','Grapes','Orange').fruit_names()
 
 print("\n***********End of the program***********")
