@@ -32,3 +32,5 @@ class Fruits:
 
 obj=Fruits('Apple','Grapes')
 obj.fruit_names()
+
+print("\n***********End of the program***********")
